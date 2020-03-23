@@ -66,8 +66,12 @@ const playTheGame = (strategy, times, doors) => {
 }
 
 const successPercentage = (num) => {
-  const result = counter > 0 ? Math.round(100 * (counter / num)) : "No success"
-    return result
+  if (counter > 0) {
+    const result = Math.round(100 * (counter / num))
+    console.log(`${result}%`)
+  } else {
+    console.log("No success")
+  }
 }
 
 playTheGame(usersChoice.strategy, usersChoice.times, usersChoice.doors)
