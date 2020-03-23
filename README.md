@@ -13,7 +13,7 @@ In this program we will play the game ourselves.
 
 In terminal you have to run the program (via node monty-hall.js from the project directory) and pass additional arguments: strategy ("switch" or "stick"), number of times you want this game to be played and how many doors should be there.
 
-Default values are: strategy: "switch", run times: 10, doors: 3.
+Default values are: strategy - "switch", run times - 10, doors - 3.
 
 As a result you'll see your success percentage.
 
