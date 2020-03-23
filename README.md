@@ -11,8 +11,7 @@ Under the standard assumptions, contestants who switch have a
 
 In this program we will play the game ourselves.
 
-# In terminal you have to run the code and pass additional arguments: strategy ("switch" or "stick"),
-# how many times you want this game to be played and how many doors should be there.
+In terminal you have to run the code and pass additional arguments: strategy ("switch" or "stick"), how many times you want this game to be played and how many doors should be there.
 
 Default values are: strategy: "switch", run times: 10, doors: 3.
 
